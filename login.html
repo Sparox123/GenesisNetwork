@@ -1,0 +1,64 @@
+<form class="needs-validation" novalidate>
+    <div class="form-row">
+      <div class="col-md-4 mb-3">
+        <label for="validationTooltip01">Vase ime</label>
+        <input type="text" class="form-control" id="validationTooltip01" value="Marko" required>
+        <div class="valid-tooltip">
+          Izgleda odlicno!
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <label for="validationTooltip02">Vase prezime</label>
+        <input type="text" class="form-control" id="validationTooltip02" value="Markovic" required>
+        <div class="valid-tooltip">
+          Izgleda odlicno!
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <label for="validationTooltipUsername">Korisnicko ime</label>
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+          </div>
+          <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+          <div class="invalid-tooltip">
+            Molimo unesite ispravno korisnicko ime.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="col-md-6 mb-3">
+        <label for="validationTooltip03">Grad</label>
+        <input type="text" class="form-control" id="validationTooltip03" required>
+        <div class="invalid-tooltip">
+          Molimo unesite vas grad.
+        </div>
+      </div>
+      <div class="col-md-3 mb-3">
+        <label for="validationTooltip04">Zemlja</label>
+        <select class="custom-select" id="validationTooltip04" required>
+          <option selected disabled value="">Izaberite...</option>
+          <option>Srbija</option>
+          <option>Hrvatska</option>
+          <option>Madjarska</option>
+          <option>Rumunija</option>
+          <option>Bosna i Hercegovina</option>
+          <option>Crna Gore</option>
+          <option>Makedonija</option>
+          <option>Bugarska</option>
+        </select>
+        <div class="invalid-tooltip">
+          Molimo unesite vasu zemlju.
+        </div>
+      </div>
+      <div class="col-md-3 mb-3">
+        <label for="validationTooltip05">Postanski kod</label>
+        <input type="text" class="form-control" id="validationTooltip05" required>
+        <div class="invalid-tooltip">
+          Molimo unesite postanski kod.
+        </div>
+      </div>
+    </div>
+    <button class="btn btn-primary" type="submit">Potvrdi prijavu</button>
+  </form>
